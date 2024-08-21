@@ -1,6 +1,5 @@
 {
    "storeInfo":{
-break
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
@@ -4674,56 +4673,6 @@ break
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
-                  "count": 1
-               }
-            ]
-         }
-      },
-      {
-         "info":{
-            "title":"Mega Dropper",
-            "author":"Vance",
-            "version":"1",
-            "category":[
-               "worlds"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"A simple dropper recreated in Minecraft 3DS.",
-            "license":"unknown",
-            "releasenotes": "A simple dropper recreated in Minecraft 3DS.\n\nCreator - Vance",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mega-dropper.png"
-               }
-            ],
-            "icon_index":41,
-            "sheet_index":0,
-            "last_updated":"2022-06-30 at 16:09 (UTC)"
-         },
-         "Mega Dropper Demo":{
-            "size":"1.92 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/mega-dropper-demo.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/mega-dropper-demo.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/mega-dropper-demo.zip",
-                  "input": "Mega Dropper Demo/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Mega Dropper Demo/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/mega-dropper-demo.zip"
                },
                {
                   "type": "promptMessage",
